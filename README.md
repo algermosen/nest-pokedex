@@ -18,7 +18,7 @@
 $ yarn install
 ```
 
-2. Intall Nest CLI globally
+2. Install Nest CLI globally
 ```bash
 $ npm i -g @nestjs/cli
 ```
@@ -27,6 +27,8 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
+
+4. Clone file __.env.template__ and rename it to __.env__
 
 ## Running the app
 
@@ -52,4 +54,13 @@ $ yarn run test:e2e
 
 # test coverage
 $ yarn run test:cov
+```
+
+## Production build
+
+1. Create file __.env.prod__
+2. Assign values to the environment variables
+3. Create new image
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
 ```

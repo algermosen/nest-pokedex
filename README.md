@@ -4,7 +4,20 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) project created to learn the basics of the framework.
+
+__Learnings__
+
+- Create a project with Nest
+- Basic structure of Nest application
+- API versioning
+- Create endpoints and DTOs to process data
+- Add ValidationPipe
+- Create custom Pipes
+- Use Nest ConfigService
+- Connect to Mongo Database
+- Deploy Nest application on Railway
+- Dockerize application
 
 ## Stack
 
